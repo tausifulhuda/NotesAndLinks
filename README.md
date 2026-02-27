@@ -1,1 +1,1 @@
-Download the repository and run 'index.html' to run the app in a tab, but it is best used as extension. Go to 'Manage extensions' (or something similar) section and unpack the folder to use it as browser extension.
+Download the repository and run 'index.html' to run the app in a tab, but it is best used as extension. Go to 'Manage extensions' (or something similar) section in your Chromium-based browser (like Chrome or Edge) and unpack the folder to use it as browser extension.
