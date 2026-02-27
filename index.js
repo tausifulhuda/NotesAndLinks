@@ -1,6 +1,4 @@
 let saveButton=document.getElementById("save_button")
-//const saved=[]
-//let saved=""
 let saveLink=document.getElementById("save_link")
 let inputField=document.getElementById("input")
 let infoList=document.getElementById('info')
@@ -14,7 +12,7 @@ if(localStorage.getItem("items")){
 function print(item){ 
     let found=false
 
-    for(let j=0;j<item.length;j++){
+    for(let j=0;j<item.length-1;j++){
         if(item[j]=='.'){
             found=true
         }
@@ -94,3 +92,4 @@ clear.addEventListener('click', function(){
     infoList.innerHTML=""
     saved=[]
 })
+
